@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GONet Maroc | عروض 50Go و200Go و300Go</title>
+    <meta name="description" content="اختار عرض GONet المناسب ليك: 50Go بـ49 درهم، 200Go بـ159 درهم أو 300Go بـ209 درهم. إنترنت، مكالمات وSMS مع طلب ساهل عبر WhatsApp.">
+    
+    <!-- Google Fonts: Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Analytics (Placeholder) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-text">GONet<span class="logo-dot">.</span></span>
+            </div>
+            <div class="nav-links hide-mobile">
+                <a href="#hero">العروض</a>
+                <a href="#benefits">المزايا</a>
+                <a href="#how">كيفاش كيخدم</a>
+                <a href="#faq">الأسئلة</a>
+            </div>
+            <a href="#" class="btn btn-outline nav-cta dynamic-wa-link" data-event="whatsapp_click_nav">
+                <i class='bx bxl-whatsapp'></i> طلب دابا
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="hero">
+        <div class="hero-bg-particles" id="particles"></div>
+        <div class="container hero-container">
+            
+            <div class="hero-text fade-up">
+                <span class="brand-tag">GONet Maroc</span>
+                <h1>ختار العرض اللي مناسب ليك 🔥</h1>
+                <p class="subheadline">3 عروض، اختيارك نتا. من 50Go حتى 300Go، اختار العرض اللي كيوافق الاستعمال ديالك. بسيط. سريع. بلا تعقيد.</p>
+            </div>
+
+            <!-- OFFER SELECTOR TABS -->
+            <div class="offer-tabs fade-up" style="animation-delay: 0.1s;">
+                <div class="offer-tab" data-offer="0">
+                    <div class="tab-badge">للإستعمال الخفيف</div>
+                    <div class="tab-price">49 <span>DH</span></div>
+                    <div class="tab-data">50 Go</div>
+                    <div class="tab-validity">7 أيام</div>
+                    <div class="selection-indicator">اختيارك</div>
+                </div>
+                <div class="offer-tab active" data-offer="1">
+                    <div class="tab-badge active-badge">الأكثر استعمالاً</div>
+                    <div class="tab-price">159 <span>DH</span></div>
+                    <div class="tab-data">200 Go</div>
+                    <div class="tab-validity">30 يوم</div>
+                    <div class="selection-indicator">اختيارك</div>
+                </div>
+                <div class="offer-tab" data-offer="2">
+                    <div class="tab-badge">Go أكثر</div>
+                    <div class="tab-price">209 <span>DH</span></div>
+                    <div class="tab-data">300 Go</div>
+                    <div class="tab-validity">30 يوم</div>
+                    <div class="selection-indicator">اختيارك</div>
+                </div>
+            </div>
+
+            <!-- DYNAMIC OFFER CARD -->
+            <div class="dynamic-offer-card fade-up" style="animation-delay: 0.2s;">
+                <div class="card-glow"></div>
+                <div class="offer-header">
+                    <h2 class="dynamic-price" id="dyn-price">159 DH</h2>
+                </div>
+                
+                <div class="offer-features-grid" id="dyn-features">
+                    <div class="feat-item">
+                        <i class='bx bx-wifi'></i>
+                        <span class="feat-val" id="dyn-data">200 Go</span>
+                    </div>
+                    <div class="feat-item">
+                        <i class='bx bx-phone-call'></i>
+                        <span class="feat-val" id="dyn-nat">40 H مكالمات وطنية</span>
+                    </div>
+                    <div class="feat-item">
+                        <i class='bx bx-globe'></i>
+                        <span class="feat-val" id="dyn-int">4 H مكالمات دولية</span>
+                    </div>
+                    <div class="feat-item">
+                        <i class='bx bx-message-rounded-dots'></i>
+                        <span class="feat-val" id="dyn-sms">SMS غير محدود</span>
+                    </div>
+                    <div class="feat-item validity-item">
+                        <i class='bx bx-calendar'></i>
+                        <span class="feat-val" id="dyn-val">صالحة 30 يوم</span>
+                    </div>
+                </div>
+
+                <div class="offer-action">
+                    <a href="#" class="btn btn-primary btn-huge dynamic-wa-link pulse-anim" id="dyn-cta-text" data-event="hero_cta_click">
+                        طلب عرض 159 DH
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- BENEFITS -->
+    <section class="section benefits" id="benefits">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">علاش تختار GONet؟</h2>
+            <div class="grid-4">
+                <div class="benefit-card scroll-reveal">
+                    <div class="icon-3d">🌐</div>
+                    <h3>Internet بزاف</h3>
+                    <p>باش تبقى ديما كونكطي.</p>
+                </div>
+                <div class="benefit-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="icon-3d">📞</div>
+                    <h3>مكالمات</h3>
+                    <p>تواصل مع الناس اللي مهمين عندك.</p>
+                </div>
+                <div class="benefit-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="icon-3d">⚡</div>
+                    <h3>تفعيل سريع</h3>
+                    <p>عملية سهلة وبسيطة.</p>
+                </div>
+                <div class="benefit-card scroll-reveal" style="transition-delay: 0.3s;">
+                    <div class="icon-3d">📲</div>
+                    <h3>طلب عبر WhatsApp</h3>
+                    <p>غير صيفط لينا رسالة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPARISON -->
+    <section class="section comparison">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">قارن العروض واختار اللي مناسب ليك</h2>
+            <div class="comparison-table-wrapper scroll-reveal">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>المزايا</th>
+                            <th class="col-clickable" data-offer="0">
+                                <div class="comp-head">49 DH</div>
+                                <div class="comp-sub">50 Go</div>
+                            </th>
+                            <th class="col-clickable active-col" data-offer="1">
+                                <div class="comp-head">159 DH</div>
+                                <div class="comp-sub">200 Go</div>
+                            </th>
+                            <th class="col-clickable" data-offer="2">
+                                <div class="comp-head">209 DH</div>
+                                <div class="comp-sub">300 Go</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>الإنترنت</td>
+                            <td>50 Go</td>
+                            <td class="active-col">200 Go</td>
+                            <td>300 Go</td>
+                        </tr>
+                        <tr>
+                            <td>مكالمات وطنية</td>
+                            <td>10 H</td>
+                            <td class="active-col">40 H</td>
+                            <td>60 H</td>
+                        </tr>
+                        <tr>
+                            <td>مكالمات دولية</td>
+                            <td>1 H</td>
+                            <td class="active-col">4 H</td>
+                            <td>6 H</td>
+                        </tr>
+                        <tr>
+                            <td>SMS</td>
+                            <td>10,000</td>
+                            <td class="active-col">غير محدود</td>
+                            <td>غير محدود</td>
+                        </tr>
+                        <tr>
+                            <td>الصلاحية</td>
+                            <td>7 أيام</td>
+                            <td class="active-col">30 يوم</td>
+                            <td>30 يوم</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section how" id="how">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">كيفاش تطلب؟</h2>
+            <div class="steps-container">
+                <div class="step scroll-reveal">
+                    <div class="step-num">1</div>
+                    <h3>ختار العرض</h3>
+                    <p>قارن بين 3 العروض واختار اللي مناسب ليك.</p>
+                </div>
+                <div class="step-connector hide-mobile scroll-reveal"></div>
+                <div class="step scroll-reveal" style="transition-delay: 0.1s;">
+                    <div class="step-num">2</div>
+                    <h3>كليكي على WhatsApp</h3>
+                    <p>صيفط لينا رسالة مباشرة.</p>
+                </div>
+                <div class="step-connector hide-mobile scroll-reveal"></div>
+                <div class="step scroll-reveal" style="transition-delay: 0.2s;">
+                    <div class="step-num">3</div>
+                    <h3>أكد الطلب</h3>
+                    <p>الفريق ديال GONet غادي يتواصل معاك.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MOROCCAN VISUAL -->
+    <section class="section moroccan-lifestyle">
+        <div class="parallax-bg" style="background-image: url('asset/814289310_122099801391482350_7515487466427826233_n.jpg');"></div>
+        <div class="container">
+            <div class="moroccan-content scroll-reveal">
+                <h2>خليك ديما كونكطي 🇲🇦</h2>
+                <p>من كازا لمراكش، من الرباط لأكادير، GONet معاك.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">شنو كيقولو الناس على GONet؟</h2>
+            <div class="grid-3">
+                <div class="testimonial-card scroll-reveal">
+                    <p>"عجبني بزاف أنني نقدر نختار العرض اللي مناسب للاستعمال ديالي."</p>
+                    <div class="author">— زبون GONet</div>
+                </div>
+                <div class="testimonial-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <p>"الطلب عبر واتساب ساهل وما فيهش تعقيد."</p>
+                    <div class="author">— زبون GONet</div>
+                </div>
+                <div class="testimonial-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <p>"50Go كان مناسب ليا للاستعمال اليومي."</p>
+                    <div class="author">— زبون GONet</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">الأسئلة الشائعة</h2>
+            <div class="faq-accordion scroll-reveal">
+                <div class="faq-item">
+                    <div class="faq-q">شنو هي العروض المتوفرة؟ <i class='bx bx-plus'></i></div>
+                    <div class="faq-a"><p>كاينين 3 عروض: 49 درهم، 159 درهم، و209 درهم.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">شنو الفرق بينهم؟ <i class='bx bx-plus'></i></div>
+                    <div class="faq-a"><p>الفرق هو فحجم الإنترنت، المكالمات، الرسائل ومدة الصلاحية.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">واش نقدر نبدل العرض؟ <i class='bx bx-plus'></i></div>
+                    <div class="faq-a"><p>نعم، من خلال الصفحة تقدر تختار العرض اللي مناسب ليك قبل ما تطلب.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">كيفاش نطلب؟ <i class='bx bx-plus'></i></div>
+                    <div class="faq-a"><p>اختار العرض ديالك وكليكي على WhatsApp.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">شحال مدة الصلاحية؟ <i class='bx bx-plus'></i></div>
+                    <div class="faq-a"><p>عرض 49 درهم صالح 7 أيام، وعروض 159 و209 درهم صالحين 30 يوم.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="section final-cta">
+        <div class="final-glow-bg"></div>
+        <div class="container final-cta-container scroll-reveal">
+            <h2>اختار العرض ديالك وخليك كونكطي 🔥</h2>
+            
+            <div class="final-offer-options">
+                <div class="final-opt" data-offer="0">
+                    <span class="f-price">49 DH</span>
+                    <span class="f-data">50 Go</span>
+                </div>
+                <div class="final-opt active" data-offer="1">
+                    <span class="f-price">159 DH</span>
+                    <span class="f-data">200 Go</span>
+                </div>
+                <div class="final-opt" data-offer="2">
+                    <span class="f-price">209 DH</span>
+                    <span class="f-data">300 Go</span>
+                </div>
+            </div>
+
+            <a href="#" class="btn btn-primary btn-huge dynamic-wa-link pulse-anim" id="final-cta-btn" data-event="final_cta_click">
+                <i class='bx bxl-whatsapp'></i> طلب عرض 159 DH
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="f-brand">
+                    <span class="logo-text">GONet<span class="logo-dot">.</span></span>
+                    <p>Plus de Go. Plus de liberté.</p>
+                </div>
+                <div class="f-links">
+                    <a href="#hero">العروض</a>
+                    <a href="#how">كيفاش كيخدم</a>
+                    <a href="#faq">الأسئلة</a>
+                </div>
+            </div>
+            <div class="f-bottom">
+                <p>&copy; 2026 GONet Maroc. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- STICKY CTAs -->
+    <div class="mobile-sticky-cta">
+        <a href="#" class="btn btn-primary btn-block dynamic-wa-link" id="sticky-cta-btn" data-event="whatsapp_click_sticky">
+            <i class='bx bxl-whatsapp'></i> <span class="txt">طلب عرض 159 DH</span>
+        </a>
+    </div>
+
+    <a href="#" class="desktop-floating-wa dynamic-wa-link hide-mobile" data-event="whatsapp_click_float">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+
+    <!-- SCRIPTS -->
+    <script>
+        // Data for the 3 Offers
+        const offers = [
+            {
+                id: 0,
+                price: "49 DH",
+                priceNum: 49,
+                data: "50 Go",
+                nat: "10 H مكالمات وطنية",
+                int: "1 H مكالمات دولية",
+                sms: "10,000 SMS",
+                val: "صالحة 7 أيام",
+                msg: "سلام، بغيت نستافد من عرض GONet 50Go بـ49 درهم."
+            },
+            {
+                id: 1,
+                price: "159 DH",
+                priceNum: 159,
+                data: "200 Go",
+                nat: "40 H مكالمات وطنية",
+                int: "4 H مكالمات دولية",
+                sms: "SMS غير محدود",
+                val: "صالحة 30 يوم",
+                msg: "سلام، بغيت نستافد من عرض GONet 200Go بـ159 درهم."
+            },
+            {
+                id: 2,
+                price: "209 DH",
+                priceNum: 209,
+                data: "300 Go",
+                nat: "60 H مكالمات وطنية",
+                int: "6 H مكالمات دولية",
+                sms: "SMS غير محدود",
+                val: "صالحة 30 يوم",
+                msg: "سلام، بغيت نستافد من عرض GONet 300Go بـ209 درهم."
+            }
+        ];
+
+        let currentOffer = 1; // Default to 159 DH
+        const waNumber = "212693111314";
+
+        // DOM Elements
+        const dynPrice = document.getElementById('dyn-price');
+        const dynData = document.getElementById('dyn-data');
+        const dynNat = document.getElementById('dyn-nat');
+        const dynInt = document.getElementById('dyn-int');
+        const dynSms = document.getElementById('dyn-sms');
+        const dynVal = document.getElementById('dyn-val');
+        const dynFeatures = document.getElementById('dyn-features');
+        
+        const dynCtaText = document.getElementById('dyn-cta-text');
+        const finalCtaBtn = document.getElementById('final-cta-btn');
+        const stickyCtaBtnTxt = document.querySelector('#sticky-cta-btn .txt');
+        
+        const waLinks = document.querySelectorAll('.dynamic-wa-link');
+        
+        const tabs = document.querySelectorAll('.offer-tab');
+        const compCols = document.querySelectorAll('.col-clickable');
+        const compCells = document.querySelectorAll('.comparison-table tbody tr td:not(:first-child)');
+        const finalOpts = document.querySelectorAll('.final-opt');
+
+        function updateOffer(index) {
+            if(currentOffer === index) return; // No change
+            currentOffer = index;
+            const data = offers[index];
+
+            // Trigger Analytics Event
+            gtag('event', `offer_selected_${data.priceNum}`);
+
+            // 1. Animate Out
+            dynFeatures.style.opacity = '0';
+            dynFeatures.style.transform = 'translateY(10px)';
+            dynPrice.style.transform = 'scale(0.95)';
+            dynPrice.style.opacity = '0';
+
+            setTimeout(() => {
+                // 2. Update Content
+                dynPrice.textContent = data.price;
+                dynData.textContent = data.data;
+                dynNat.textContent = data.nat;
+                dynInt.textContent = data.int;
+                dynSms.textContent = data.sms;
+                dynVal.textContent = data.val;
+                
+                dynCtaText.textContent = `طلب عرض ${data.price}`;
+                finalCtaBtn.innerHTML = `<i class='bx bxl-whatsapp'></i> طلب عرض ${data.price}`;
+                stickyCtaBtnTxt.textContent = `طلب عرض ${data.price}`;
+
+                // Update WA Links
+                const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(data.msg)}`;
+                waLinks.forEach(link => {
+                    link.href = waUrl;
+                    // Update tracking event dynamically based on button type
+                    let evType = link.getAttribute('data-event');
+                    if(evType && evType.includes('whatsapp_click')) {
+                        link.setAttribute('onclick', `gtag('event', 'whatsapp_click_${data.priceNum}')`);
+                    } else if(evType) {
+                        link.setAttribute('onclick', `gtag('event', '${evType}')`);
+                    }
+                });
+
+                // 3. Update active states on UI selectors
+                updateActiveStates(index);
+
+                // 4. Animate In
+                dynFeatures.style.opacity = '1';
+                dynFeatures.style.transform = 'translateY(0)';
+                dynPrice.style.transform = 'scale(1)';
+                dynPrice.style.opacity = '1';
+                
+            }, 250); // Matches CSS transition duration
+        }
+
+        function updateActiveStates(index) {
+            // Tabs
+            tabs.forEach((t, i) => {
+                if(i === index) t.classList.add('active');
+                else t.classList.remove('active');
+            });
+            
+            // Comparison Table Columns
+            compCols.forEach((c, i) => {
+                if(i === index) c.classList.add('active-col');
+                else c.classList.remove('active-col');
+            });
+            
+            // Update table body cells active state based on index
+            const rows = document.querySelectorAll('.comparison-table tbody tr');
+            rows.forEach(row => {
+                const cells = row.querySelectorAll('td:not(:first-child)');
+                cells.forEach((cell, i) => {
+                    if(i === index) cell.classList.add('active-col');
+                    else cell.classList.remove('active-col');
+                });
+            });
+
+            // Final CTA options
+            finalOpts.forEach((o, i) => {
+                if(i === index) o.classList.add('active');
+                else o.classList.remove('active');
+            });
+
+            // Scroll active tab into view on mobile (horizontal scroll)
+            const activeTab = document.querySelector('.offer-tab.active');
+            if(window.innerWidth < 768 && activeTab) {
+                activeTab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+            }
+        }
+
+        // Attach Event Listeners
+        tabs.forEach((tab, idx) => {
+            tab.addEventListener('click', () => updateOffer(idx));
+        });
+
+        compCols.forEach((col, idx) => {
+            col.addEventListener('click', () => {
+                updateOffer(idx);
+                // Scroll up slightly to show the hero if they want
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+
+        finalOpts.forEach((opt, idx) => {
+            opt.addEventListener('click', () => updateOffer(idx));
+        });
+
+        // Initialize First Render Link updates
+        updateOffer(currentOffer);
+
+        // ==========================================
+        // UI Enhancements (Scroll, Accordion, Navbar)
+        // ==========================================
+        
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) nav.classList.add('scrolled');
+            else nav.classList.remove('scrolled');
+        });
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const q = item.querySelector('.faq-q');
+            q.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                faqItems.forEach(i => {
+                    i.classList.remove('active');
+                    i.querySelector('.faq-a').style.maxHeight = null;
+                });
+                if (!isActive) {
+                    item.classList.add('active');
+                    const a = item.querySelector('.faq-a');
+                    a.style.maxHeight = a.scrollHeight + "px";
+                    gtag('event', 'faq_open');
+                }
+            });
+        });
+
+        // Scroll Reveal Animations using IntersectionObserver
+        const revealOpts = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    obs.unobserve(entry.target);
+                }
+            });
+        }, revealOpts);
+        
+        document.querySelectorAll('.scroll-reveal, .fade-up').forEach(el => observer.observe(el));
+
+    </script>
+</body>
+</html>
